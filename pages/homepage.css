@@ -1,0 +1,39 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(240, 241, 137);
+    text-align: center;
+  }
+  
+  .homepage h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .homepage p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .homepage-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(130, 121, 255);
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .homepage-button:hover {
+    background-color: rgb(100, 100, 255);
+  }
